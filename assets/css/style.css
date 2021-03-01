@@ -55,6 +55,10 @@ a {
 
 p {
     font-size: 16px;
+    /*Updated paragraph text to meet visual accessibility standards */
+    color:mintcream;
+    font-weight: bold;
+
 }
 
 .hero {
@@ -80,6 +84,9 @@ p {
     width: 20%;
     height: 100%;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    /*Updated paragraph text to meet visual accessibility standards */
+    font-weight: bold;
+    font-size: 20px;
     background-color: #2589bd;
 }
 
@@ -207,4 +214,10 @@ footer {
 
 footer h1 {
     font-size: 20px;
+}
+
+/*Updated paragraph text to meet visual accessibility standards */
+footer p 
+{
+    color: black;
 }
