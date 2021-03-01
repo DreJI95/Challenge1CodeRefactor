@@ -8,44 +8,49 @@
 header {
     background-color: #2a607c;
     padding: 20px;
-    display: block; /* Updated entire header in one block for spacing*/
+    display: block; /* Updated entire header in one block for spacing */
 }
 
+/* Header company logo style block */
 header .company_logo {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
     color: #ffffff;
 }
 
+/* Style block for the "seo" letters in the company logo */
 header .company_logo span {
     color: #d9dcd6;
 }
 
 header h1 {
-    display: inline; /* Updated logo and page link tabs inline for spacing*/
+    display: inline; /* Updated logo and page link tabs inline for spacing */
     font-size: 48px;
 }
 
+/* Style block for the header navigation tab */
 header nav {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
-    /*Updated to kepe background color consistent with navigation link tabs*/
+    /*Updated to kepe background color consistent with navigation link tabs */
     background-color: #2a607c;
 }
 
+/* Removes the bullets from the naviation tab list type */
 header nav ul {
     list-style-type: none;
 }
 
+/* Keeps navigation tab list elements inside the header property blcok */
 header nav ul li {
     display: inline-block;
     margin-left: 25px;
 }
 
-
+/* Sets body default background color */
 body {
     background-color: #d9dcd6;
 }
@@ -56,6 +61,7 @@ a {
     text-decoration: none;
 }
 
+/* Sets default text for body content */
 p {
     font-size: 16px;
     /*Updated paragraph text to meet visual accessibility standards */
@@ -74,32 +80,15 @@ p {
     background-position: center;
 }
 
-/*Content section css style block*/
+/* Content section css style block*/
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
+/* Styles the "Search Engine Optimization" block of the content section */
 .content .search-engine-optimization {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.content .online-reputation-management {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.content .social-media-marketing {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -114,18 +103,6 @@ p {
     max-height: fit-content;
 }
 
-.content .online-reputation-management h1 {
-    margin-bottom: 20px;
-    font-size: 36px;
-    max-height: fit-content;
-}
-
-.content .social-media-marketing h1 {
-    margin-bottom: 20px;
-    font-size: 36px;
-    max-height: fit-content;
-}
-
 /* Updated image with margin and float css properties" */
 .content .search-engine-optimization img {
     max-height: 200px;
@@ -134,21 +111,60 @@ p {
     margin-right: 25px;
 }
 
-/* Updated image with margin and float css properties" */
+
+/* Styles the "Online Reputation Management" block of the content section */
+.content .online-reputation-management {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+/* Styles the "Online Reputation Management" heading of the content section */
+.content .online-reputation-management h1 {
+    margin-bottom: 20px;
+    font-size: 36px;
+    max-height: fit-content;
+}
+
+/* Styles the "Online Reputation Management" image of the content section */
 .content .online-reputation-management img {
     max-height: 200px;
+    /* Updated image with margin and float css properties" */
     float: right;
     margin-left: 25px;
     margin-right: 25px;
 }
 
-/* Updated image with margin and float css properties" */
+
+/* Styles the "Social Media Marketing" block of the content section */
+.content .social-media-marketing {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+/* Styles the "Social Media Marketing" heading of the content section */
+.content .social-media-marketing h1 {
+    margin-bottom: 20px;
+    font-size: 36px;
+    max-height: fit-content;
+}
+
+/* Styles the "Social Media Marketing" image of the content section */
 .content .social-media-marketing img {
     max-height: 200px;
+    /* Updated image with margin and float css properties" */
     float: left;
     margin-left: 25px;
     margin-right: 25px;
 }
+
 
 /*Benefits section css style block*/
 .benefits {
@@ -165,53 +181,63 @@ p {
     background-color: #2589bd;
 }
 
+/* Styles the "Lead Generation" block of the benefits aside */
 .benefits .benefit-lead {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
-.benefits .benefit-brand {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefits .benefit-cost {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
+/* Styles the "Lead Generation" heading of the benefits aside */
 .benefits .benefit-lead h1 {
     margin-bottom: 10px;
     text-align: center;
 }
 
-.benefits .benefit-brand h1 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefits .benefit-cost h1 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
+/* Styles the "Lead Generation" icon of the benefits aside */
 .benefits .benefit-lead img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
+/* Styles the "Brand Awareness" block of the benefits aside */
+.benefits .benefit-brand {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
+/* Styles the "Brand Awareness" heading of the benefits aside */
+.benefits .benefit-brand h1 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+/* Styles the "Brand Awareness" icon of the benefits aside */
 .benefits .benefit-brand img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
+/* Styles the "Cost Management" block of the benefits aside */
+.benefits .benefit-cost {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
+/* Styles the "Cost Management" heading of the benefits aside */
+.benefits .benefit-cost h1 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+/* Styles the "Cost Management" iconof the benefits aside */
 .benefits .benefit-cost img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
+
 
 /*Footer section css style block*/
 footer {
@@ -221,12 +247,14 @@ footer {
     text-align: center;
 }
 
+/*Styles footer heading of the footer block*/
 footer h1 {
     font-size: 20px;
 }
 
-/*Updated paragraph text to meet visual accessibility standards */
+/*Styles footer text of the footer block*/
 footer p 
 {
+    /*Updated paragraph text to meet visual accessibility standards */
     color: black;
 }
