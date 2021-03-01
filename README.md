@@ -1,6 +1,6 @@
 # Code Refactor Starter Code 
 
-#Andre Moseley
+#Andre Moseley 
 
 #Description:
 The codebase provided by the marketing agency has been modified and updated to meet accessibility standards. This was done using HTML semantics and proper structure of elements while maintaing code integrity.
