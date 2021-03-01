@@ -26,7 +26,7 @@ header h1 {
     font-size: 48px;
 }
 
-header h2 {
+header nav {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
@@ -34,11 +34,11 @@ header h2 {
     font-size: 20px;
 }
 
-header h2 ul {
+header nav ul {
     list-style-type: none;
 }
 
-header h2 ul li {
+header nav ul li {
     display: inline-block;
     margin-left: 25px;
 }
@@ -76,6 +76,75 @@ p {
     margin-left: 20px;
 }
 
+.search-engine-optimization {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+.online-reputation-management {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+.social-media-marketing {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+.search-engine-optimization h1 {
+    margin-bottom: 20px;
+    font-size: 36px;
+    max-height: fit-content;
+}
+
+.online-reputation-management h1 {
+    margin-bottom: 20px;
+    font-size: 36px;
+    max-height: fit-content;
+}
+
+.social-media-marketing h1 {
+    margin-bottom: 20px;
+    font-size: 36px;
+    max-height: fit-content;
+}
+
+/* Updated image with margin and float css properties" */
+.search-engine-optimization img {
+    max-height: 200px;
+    float: left;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+/* Updated image with margin and float css properties" */
+.online-reputation-management img {
+    max-height: 200px;
+    float: right;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+/* Updated image with margin and float css properties" */
+.social-media-marketing img {
+    max-height: 200px;
+    float: left;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -105,17 +174,17 @@ p {
     color: #ffffff;
 }
 
-.benefit-lead h3 {
+.benefit-lead h1 {
     margin-bottom: 10px;
     text-align: center;
 }
 
-.benefit-brand h3 {
+.benefit-brand h1 {
     margin-bottom: 10px;
     text-align: center;
 }
 
-.benefit-cost h3 {
+.benefit-cost h1 {
     margin-bottom: 10px;
     text-align: center;
 }
@@ -136,73 +205,6 @@ p {
     display: block;
     margin: 10px auto;
     max-width: 150px;
-}
-
-.search-engine-optimization {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.online-reputation-management {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.social-media-marketing {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.search-engine-optimization h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-    max-height: fit-content;
-}
-
-.online-reputation-management h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.social-media-marketing h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-/* Updated image with margin and float css properties" */
-.search-engine-optimization img {
-    max-height: 200px;
-    float: left;
-    margin-left: 25px;
-    margin-right: 25px;
-}
-
-/* Updated image with margin and float css properties" */
-.online-reputation-management img {
-    max-height: 200px;
-    float: right;
-    margin-left: 25px;
-    margin-right: 25px;
-}
-
-/* Updated image with margin and float css properties" */
-.social-media-marketing img {
-    max-height: 200px;
-    float: left;
-    margin-left: 25px;
-    margin-right: 25px;
 }
 
 footer {

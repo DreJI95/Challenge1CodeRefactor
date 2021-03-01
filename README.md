@@ -23,4 +23,8 @@ THEN they fall in sequential order
 WHEN I view the title element
 THEN I find a concise, descriptive title
 
+#References:
+MDN Web Docs: https://developer.mozilla.org/en-US/docs/Web/Accessibility
+WS3 Schools HTML Semantics: https://www.w3schools.com/html/html5_semantic_elements.asp
+
 #Live link: https://dreji95.github.io/Challenge1CodeRefactor/
