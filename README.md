@@ -23,4 +23,4 @@ THEN they fall in sequential order
 WHEN I view the title element
 THEN I find a concise, descriptive title
 
-#Live link: https://github.com/DreJI95/Challenge1CodeRefactor
+#Live link: https://dreji95.github.io/Challenge1CodeRefactor/
