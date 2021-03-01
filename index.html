@@ -7,30 +7,30 @@
     <!--Updated website name to Horiseon-->
     <title>Horiseon Home Page</title>
 </head>
-
-<!--Updated to represent the header separate from the body content-->
-<header>
-    <h1 class=company_logo> Hori<span>seo</span>n</h1> <!--Added "general company logo class" in case of future design changes-->
-        <h2> <!--Created header 2 to group listed page link items-->
-            <ul>
-                <li>
-                    <a href="#search-engine-optimization">Search Engine Optimization</a>
-                </li>
-                <li>
-                    <a href="#online-reputation-management">Online Reputation Management</a>
-                </li>
-                <li>
-                    <a href="#social-media-marketing">Social Media Marketing</a>
-                </li>
-            </ul>
-        </h2>
-</header>
-
 <body>
-    <div class="hero"></div>
+    <!--Updated to represent the header in the body content-->
+    <header>
+        <h1 class=company_logo> Hori<span>seo</span>n</h1> <!--Added "general company logo class" in case of future design changes-->
+            <h2> <!--Created header 2 to group listed page link items-->
+                <ul>
+                    <li>
+                        <a href="#search-engine-optimization">Search Engine Optimization</a>
+                    </li>
+                    <li>
+                        <a href="#online-reputation-management">Online Reputation Management</a>
+                    </li>
+                    <li>
+                        <a href="#social-media-marketing">Social Media Marketing</a>
+                    </li>
+                </ul>
+            </h2>
+    </header>
+
+    <!--Inlcuded alt tag for the hero image to identify the image content-->
+    <div class="hero" alt="Horiseon staff image"></div>
     <div class="content">
-        <!--Updated "Search Engine Optimization with an Id to link to the href property in the header-->"
-        <div id="search-engine-optimization" class="search-engine-optimization"> 
+         <!--Updated "Search Engine Optimization with an Id to link to the href property in the header-->
+         <div id="search-engine-optimization" class="search-engine-optimization">
             <img src="./assets/images/search-engine-optimization.jpg" class="float-left" />
             <h2>Search Engine Optimization</h2>
             <p>
@@ -75,12 +75,14 @@
             </p>
         </div>
     </div>
-    <div class="footer">
-        <h2>Made with ❤️️ by Horiseon</h2>
+
+    <footer>
+        <!--Updated heart emoticon with a alt property to describe the icon-->
+        <h1>Made with <span alt="love emoticon">❤️</span>️ by Horiseon</h1>
         <p>
             &copy; 2019 Horiseon Social Solution Services, Inc.
         </p>
-    </div>
+    <footer>
 </body>
 
 </html>
