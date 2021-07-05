@@ -27,7 +27,7 @@ THEN I find a concise, descriptive title
 MDN Web Docs: https://developer.mozilla.org/en-US/docs/Web/Accessibility
 WS3 Schools HTML Semantics: https://www.w3schools.com/html/html5_semantic_elements.asp
 
-#Live webpage link: https://dreji95.github.io/Challenge1CodeRefactor/
+#Live webpage link: https://dreji95.github.io/code-refactor/
 #Repository link: https://github.com/DreJI95/Challenge1CodeRefactor
 
 Screenshots:
